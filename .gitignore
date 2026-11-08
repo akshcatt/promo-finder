@@ -1,0 +1,14 @@
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+# confidential input pack and outputs that quote it: share privately, never commit
+*.txt
+!requirements.txt
+outputs/
+eval/gold_*.json
+.env
+# submitted separately (quote the confidential scripts)
+docs/solution.html
+docs/solution.pdf
+docs/WALKTHROUGH.md
